@@ -1,0 +1,36 @@
+.newArrDiv {
+  margin: 15px;
+}
+
+.array-inputs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 60% 40%;
+  grid-template-columns: 60% 40%;
+  place-content: center;
+  padding: 5% 0%;
+}
+
+.array-inputs #arrSize {
+  padding: 5% 0%;
+}
+
+.array-inputs #arrSpeed {
+  padding: 5% 0%;
+}
+
+section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 20% 60% 20%;
+  grid-template-columns: 20% 60% 20%;
+}
+
+
+section #array_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60%;
+  height: 70vh;
+}
